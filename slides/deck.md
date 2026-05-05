@@ -565,6 +565,33 @@ Spec-Kit zwingt zur Vorab-Planung — das zahlt sich nur ein, wenn das Feature g
 
 ---
 
+<!-- _class: divider -->
+<!-- _header: '' -->
+<!-- _footer: '' -->
+
+# „One more thing…"
+
+<span class="eyebrow">Steve Jobs</span>
+
+---
+
+<!-- _header: '' -->
+<!-- _footer: '' -->
+
+## aiui <span class="b5-colon">:</span> native macOS-Dialoge für Claude Code
+
+Statt im Chat zurückzuschreiben, öffnet der Agent **echte Mac-Dialoge** — dort, wo du eh schon arbeitest.
+
+- **`confirm`** vor zerstörerischen Aktionen — Delete, Drop, Force-Push, Deploy
+- **`ask`** für Auswahl aus mehreren Optionen, wenn Kontext pro Option zählt
+- **`form`** für mehrere Felder, Secrets, Datum, Slider, Bildvergleich
+
+> Drag-and-drop Install (DMG, Apple Silicon). Kein Python, kein Homebrew, kein Terminal.
+
+[github.com/byte5ai/aiui](https://github.com/byte5ai/aiui) — Open Source (MIT), made by **byte5**.
+
+---
+
 <!-- _class: closing -->
 <!-- _header: '' -->
 
@@ -575,6 +602,7 @@ Spec-Kit zwingt zur Vorab-Planung — das zahlt sich nur ein, wenn das Feature g
 - **Claude Code Docs** <span class="b5-colon">:</span> [code.claude.com/docs](https://code.claude.com/docs)
 - **Cowork & Plugins** <span class="b5-colon">:</span> [claude.com/plugins](https://claude.com/plugins)
 - **Spec-Kit** <span class="b5-colon">:</span> [github.com/github/spec-kit](https://github.com/github/spec-kit)
+- **Wie LLMs wirklich funktionieren** <span class="b5-colon">:</span> [byte5.ai/de/tutorials/wie-llms-wirklich-funktionieren](https://www.byte5.ai/de/tutorials/wie-llms-wirklich-funktionieren)
 - **byte5** <span class="b5-colon">:</span> [byte5.de](https://www.byte5.de)
 
 <span class="eyebrow">Du suchst Unterstützung bei deinem digitalen Projekt?</span>
