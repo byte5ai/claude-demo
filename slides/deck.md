@@ -25,11 +25,11 @@ Marcel Wege · byte5 GmbH
 
 ## Marcel Wege <span class="b5-colon">:</span> @ byte5
 
-- Tech-Stack <span class="b5-colon">:</span> Laravel · TypeScript · Next.js · Pimcore
+- Tech-Stack <span class="b5-colon">:</span> Laravel · TypeScript · Next.js · Claude Agent SDK
 - Daily-Driver <span class="b5-colon">:</span> Claude Code seit Tag eins
 - Heute <span class="b5-colon">:</span> 60–75 Min · Mix aus Einordnung, Demos, Diskussion
 
-> [marcel.wege@byte5.de](mailto:marcel.wege@byte5.de)
+> [mwege@byte5.de](mailto:mwege@byte5.de)
 
 ---
 
