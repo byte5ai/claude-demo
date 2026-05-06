@@ -30,7 +30,7 @@ jobs:
       - name: Install Marp engine deps
         run: npm install --no-save @marp-team/marp-core
 
-      - name: Build slides (HTML)
+      - name: Build main deck (HTML)
         run: |
           mkdir -p dist
           npx --yes @marp-team/marp-cli@latest slides/deck.md \
@@ -42,13 +42,29 @@ jobs:
       - name: Copy slide assets
         run: cp -R slides/assets dist/assets
 
-      - name: Build slides (PDF)
+      - name: Build main deck (PDF)
         run: |
           npx --yes @marp-team/marp-cli@latest slides/deck.md \
             --pdf --allow-local-files \
             --engine ./slides/marp-engine.js \
             --theme-set slides/theme.css \
             --output dist/deck.pdf
+
+      - name: Build spec-kit-demo (HTML)
+        run: |
+          npx --yes @marp-team/marp-cli@latest slides/spec-kit-demo.md \
+            --html --allow-local-files \
+            --engine ./slides/marp-engine.js \
+            --theme-set slides/theme.css \
+            --output dist/spec-kit-demo.html
+
+      - name: Build spec-kit-demo (PDF)
+        run: |
+          npx --yes @marp-team/marp-cli@latest slides/spec-kit-demo.md \
+            --pdf --allow-local-files \
+            --engine ./slides/marp-engine.js \
+            --theme-set slides/theme.css \
+            --output dist/spec-kit-demo.pdf
 
       - name: Write fallback landing
         run: |
